@@ -1,0 +1,49 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.container{
+    max-width: 800px;
+    margin: 10px auto;
+}
+  
+.card-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.card img{
+    width: 100%;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+.card {
+    position: relative;
+}
+
+.card .cardFront{
+    position: absolute;
+    transform: rotateY(90deg);
+    transition: all ease-in 0.2s;
+}
+
+.card .cardBack{
+    transform: rotateY(0deg);
+    transition: all ease-in 0.2s;
+}
+
+.rotated .cardFront{
+    transform: rotateY(0deg);
+    transition-delay: 0.2s;
+}
+
+.rotated .cardBack{
+    transform: rotateY(90deg);
+    transition-delay: 0.2s;
+}
