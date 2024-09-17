@@ -1,8 +1,9 @@
-# React + Vite
+#MEMORY APP
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This application is a memory game.
 
-Currently, two official plugins are available:
+The user selects two face-down cards.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+If the images on these two cards match, the score increases by one.
+
+The goal is to match the same images and complete the game.
